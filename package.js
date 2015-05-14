@@ -19,7 +19,19 @@ Package.on_use(function (api, where) {
   api.addFiles("common/Pages.js", ["client", "server"]);
   api.addFiles("common/posts.js", ["client", "server"]);
   api.addFiles("common/adminConfig.js", ["client", "server"]);
-  
+  api.addFiles("common/router.js", ["client", "server"]);
+
+  api.addFiles("client/posts.html", ["client"]);
+  api.addFiles("client/events.html", ["client"]);
+  api.addFiles("client/pages.html", ["client"]);
+  api.addFiles("client/singlePost.html", ["client"]);
+  api.addFiles("client/singlePage.html", ["client"]);
+  api.addFiles("client/singleEvent.html", ["client"]);
+  api.addFiles("client/singlePost.js", ["client"]);
+  api.addFiles("client/singlePage.js", ["client"]);
+  api.addFiles("client/singleEvent.js", ["client"]);
+
+  api.addFiles("server/publications.js", ["server"])
   /*api.addFiles("lib/neo4j.js", ["client", "server"]);
   api.addFiles("lib/neo4j.js", ["client", "server"]);*/
 
